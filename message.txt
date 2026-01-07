@@ -1,2 +1,2 @@
-OS: 1. Pause loop / 2. Count
+OS: 1. Spin-loop / 2. Count
 >
