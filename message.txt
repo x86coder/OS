@@ -1,2 +1,3 @@
-OS: 1. Spin-loop / 2. Count
+OS: [1] Spin-loop [2] Color Msg [3] PUSH [4] POP
 >
+Hello
