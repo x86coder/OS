@@ -139,7 +139,7 @@ MainLoop:		; Address 0x0F
 		mov ah,01h			; B4 01 - Keyboard bios function
 		int 16h				; CD 16 - Get keyboard buffer status - was any key pressed? ZF will be zero if no key is in buffer
 		jz key1_process		; 74 F8 - jump -8 bytes (relative from next instruction, that is, IP reg)
-		mov ax,0x7C0B		; B8 0F 7C - New address = start of program
+		mov ax,0x7C0F		; B8 0F 7C - New address = start of program
 		jmp [ax]			; FF E0 - Jump to [ax] - Reset program		
 	
 	key2_process:
